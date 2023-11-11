@@ -1,0 +1,17 @@
+[project]
+authors = [
+  {name = "Viktor Freiman", email = "freiman.viktor@gmail.com"},
+]
+dynamic = ["version"]
+license = {text = "MIT"}
+name = "actrl"
+readme = "README.md"
+requires-python = ">=3.6"
+
+
+# [tool.ruff]
+# ignore = ["ANN101", "ANN201", "D100", "D102", "D103", "D203", "D205", "D213", "D417", "E501", "ERA001", "FBT", "G004", "N813", "RET505", "T201", "TRY003"]
+# select = ["ALL"]
+
+[tool.ruff.pydocstyle]
+convention = "google"
